@@ -36,7 +36,7 @@
             <div class="java-3">
         <label for="fname">Prix</label>
         <p id="prix-1"></p>
-        <input id="Prix" type="text" name="" />
+        <input id="Prix" type="text" name="" placeholder="" />
         </div>
 
         <div class="java-4">
@@ -80,22 +80,32 @@
     
         
     <button id="btn" type="submit">submit</button>
+    <button  id="butt"  onclick="printTable()">imprimer</button>
+
 </div>
     
      </form>
       
 
      <table id="table" border="1">
-        <tr>
-            <td>Titre </td>
-            <td> Auteur </td>
-            <td> Email de l'auteur </td>
-            <td>Prix</td>
-            <td>La date de publication</td>
-            <td>Langue</td>
-            <td>Type</td>
-        </tr>
+        <thead>
+            <tr>
+                <td>Titre </td>
+                <td> Auteur </td>
+                <td> Email de l'auteur </td>
+                <td>Prix</td>
+                <td>La date de publication</td>
+                <td>Langue</td>
+                <td>Type</td>
+                <td>contrôle </td>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
     </table>
+    
 
     <script src="script.js"></script>
 </body>
